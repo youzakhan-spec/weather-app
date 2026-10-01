@@ -35,14 +35,6 @@ export default function RootLayout({
           </div>
         </header>
         <main className="min-h-screen">{children}</main>
-      <div className="min-h-screen py-8 px-6">
-          <main className="max-w-xl mx-auto">
-            <h1 className="text-base font-semibold mb-6 text-muted-foreground hover:text-foreground">
-              <Link href="/">Weather</Link>
-            </h1>
-            {children}
-          </main>
-        </div>
         </TemperatureUnitProvider>
       </body>
     </html>
